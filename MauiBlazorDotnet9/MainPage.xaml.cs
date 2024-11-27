@@ -1,10 +1,9 @@
-﻿namespace MauiBlazorDotnet9
+﻿namespace MauiBlazorDotnet9;
+
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
+    public MainPage()
     {
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }
